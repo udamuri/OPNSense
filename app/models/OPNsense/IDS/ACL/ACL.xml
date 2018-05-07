@@ -1,0 +1,10 @@
+<acl>
+    <page-services-ids>
+        <name>Services: Intrusion Detection</name>
+        <patterns>
+            <pattern>ui/ids/*</pattern>
+            <pattern>api/ids/*</pattern>
+            <pattern>diag_logs_suricata.php*</pattern>
+        </patterns>
+    </page-services-ids>
+</acl>
